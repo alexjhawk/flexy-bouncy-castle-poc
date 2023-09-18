@@ -6,18 +6,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- PROJECT NAME -->
-  <name>Java Maven Starter Project</name>
+  <name>Ewon Flexy Bouncy Castle Proof of Concept Project</name>
   <!-- PROJECT VERSION -->
   <version>0.0.1</version>
   <!-- PROJECT GROUP ID (PARENT PACKAGE) -->
-  <groupId>com.hms_networks.americas.sc</groupId>
+  <groupId>com.hms_networks.americas.sc.poc</groupId>
   <!-- PROJECT ARTIFACT ID (ROOT PACKAGE NAME) -->
-  <artifactId>sc-java-maven-starter-project</artifactId>
+  <artifactId>flexy-bouncy-castle-poc</artifactId>
 
   <!-- PROJECT PROPERTIES -->
   <properties>
     <!-- Project Main Class -->
-    <project.main.class>com.example.ExampleMain</project.main.class>
+    <project.main.class>com.hms_networks.americas.sc.poc.ExampleMain</project.main.class>
     <!-- Project Memory Heap Size -->
     <project.heap.size>25M</project.heap.size>
 

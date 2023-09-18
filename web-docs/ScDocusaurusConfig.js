@@ -1,10 +1,10 @@
 // CONFIGURATION ZONE - YOU CAN EDIT THESE LINES
 const ScDocusaurusConfig = {
-  repoOwnerName: 'hms-networks',
-  repoName: 'sc-java-maven-starter-project',
-  title: 'Solution Center Java Starter Project',
-  description: 'Kick off Java development on the Ewon Flexy with the HMS Networks Solution Center Java Starter Project.',
-  meta: 'Homepage for the HMS Networks MU Americas Solution Center Java Starter Project.',
+  repoOwnerName: 'alexjhawk',
+  repoName: 'flexy-bouncy-castle-poc',
+  title: 'Ewon Flexy Bouncy Castle Proof of Concept Project',
+  description: 'A proof of concept implementation of the Bouncy Castle library for the Ewon Flexy.',
+  meta: 'Homepage for the Ewon Flexy Bouncy Castle Proof of Concept Project.',
 };
 
 // EXPORT ZONE - DON'T TOUCH BELOW THIS LINE

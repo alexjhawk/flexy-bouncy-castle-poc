@@ -1,4 +1,4 @@
-# Solution Center Java Maven Starter Project Code of Conduct
+# Ewon Flexy Bouncy Castle Proof of Concept Project Code of Conduct
 
 ## Our Pledge
 

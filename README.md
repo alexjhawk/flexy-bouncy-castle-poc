@@ -1,14 +1,13 @@
-# Solution Center Java Maven Starter Project (sc-java-maven-starter-project)
+# Ewon Flexy Bouncy Castle Proof of Concept Project (flexy-bouncy-castle-poc)
 
 ## Description
 
-A basic starting project (template) for Java applications developed on the Ewon JTK using Maven.
+A proof of concept implementation of the Bouncy Castle library for the Ewon Flexy.
 
-This project is intended to replace the functionality provided by the Ewon JTK's `build.xml` Ant
-build file for projects, and improve upon the development experience by providing a more modern
-build system and project structure.
+The Bouncy Castle library is a collection of cryptographic APIs for Java and C#,
+and is still maintained and updated for Java 1.4.
 
 ## Documentation
 
 The documentation for this project is available in a user-friendly format (via GitHub Pages) on the
-[Solution Center Java Maven Starter Project Homepage](https://hms-networks.github.io/sc-java-maven-starter-project/).
+[Ewon Flexy Bouncy Castle Proof of Concept Project Homepage](https://hms-networks.github.io/flexy-bouncy-castle-poc/).
