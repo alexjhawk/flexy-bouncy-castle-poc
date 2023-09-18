@@ -25,12 +25,6 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/quick-start-guide"
-          >
-            Quick Start Guide
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
             to={ScDocusaurusConfig.repoLatestReleaseUrl}
           >
             Download
