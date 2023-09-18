@@ -170,6 +170,9 @@
           <includeDependencySources>true</includeDependencySources>
           <dependencySourceExcludes>
             <dependencySourceExclude>com.hms_networks.americas.sc.mvnlibs:ewon-etk:*</dependencySourceExclude>
+            <dependencySourceExclude>org.bouncycastle:bcprov-jdk14:*</dependencySourceExclude>
+            <dependencySourceExclude>org.bouncycastle:bcpkix-jdk14:*</dependencySourceExclude>
+            <dependencySourceExclude>org.bouncycastle:bcmail-jdk14:*</dependencySourceExclude>
           </dependencySourceExcludes>
         </configuration>
         <executions>
@@ -496,6 +499,27 @@
       <artifactId>ewon-etk</artifactId>
       <version>1.4.4</version>
       <scope>provided</scope>
+    </dependency>
+
+    <!-- Bouncy Castle Provider Library -->
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk14</artifactId>
+      <version>1.76</version>
+    </dependency>
+
+    <!-- Bouncy Castle PKIX/OpenSSL Library -->
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcpkix-jdk14</artifactId>
+      <version>1.76</version>
+    </dependency>
+
+    <!-- Bouncy Castle MIME Library -->
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcmail-jdk14</artifactId>
+      <version>1.76</version>
     </dependency>
   </dependencies>
 </project>
