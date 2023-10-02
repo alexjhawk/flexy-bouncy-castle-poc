@@ -11,6 +11,11 @@ import org.bouncycastle.asn1.x509.Certificate;
  */
 public class PocMain {
 
+  static {
+    // Load Bouncy Castle security provider
+    PocBouncyCastle.loadBouncyCastleSecurityProvider();
+  }
+
   /**
    * The file path to the test certificate which should be parsed as part of the proof of concept
    * execution.
